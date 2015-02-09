@@ -1,3 +1,4 @@
+# created by running ./autogen.sh
 Makefile.in
 aclocal.m4
 alp2/Makefile.in
@@ -20,3 +21,31 @@ mlogc/Makefile.in
 standalone/Makefile.in
 tests/Makefile.in
 tools/Makefile.in
+
+# created by running ./configure
+Makefile
+apache2/.deps/
+apache2/Makefile
+apache2/libinjection/.deps/
+apache2/modsecurity_config_auto.h
+apache2/stamp-h1
+build/apxs-wrapper
+config.log
+config.status
+libtool
+mlogc/.deps/
+mlogc/Makefile
+mlogc/mlogc-batch-load.pl
+standalone/.deps/
+tests/.deps/
+tests/Makefile
+tests/csv_rx-pm.pl
+tests/gen_rx-pm.pl
+tests/regression/misc/40-secRemoteRules.t
+tests/regression/misc/50-ipmatchfromfile-external.t
+tests/regression/misc/60-pmfromfile-external.t
+tests/regression/server_root/conf/httpd.conf
+tests/run-regression-tests.pl
+tests/run-unit-tests.pl
+tools/Makefile
+tools/rules-updater.pl
