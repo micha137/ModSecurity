@@ -49,3 +49,8 @@ tests/run-regression-tests.pl
 tests/run-unit-tests.pl
 tools/Makefile
 tools/rules-updater.pl
+
+# created by running make
+apache2/.libs/
+*.o
+*.lo
